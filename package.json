@@ -1,0 +1,28 @@
+{
+  "name": "mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "mongoose": "^5.9.7",
+    "prettier": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "prettier": {
+    "jsxBracketSameLine": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "semi": false,
+    "useTabs": false
+  }
+}
